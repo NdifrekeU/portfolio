@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ndifreke Umoh - Game Developer</title>
+<title>Ndifreke Umoh | Game Developer</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
@@ -11,68 +11,79 @@
 
 <!-- HERO -->
 <section class="hero">
+    <video autoplay muted loop playsinline class="hero-video">
+        <source src="assets/videos/hero.mp4" type="video/mp4">
+    </video>
     <div class="overlay"></div>
+
     <div class="hero-content">
         <h1>Ndifreke Umoh</h1>
-        <p>Unity Developer • Hybrid Casual Specialist</p>
+        <p>6+ Years • Unity Developer • Hybrid Casual Specialist</p>
+        <div class="cta">
+            <a href="#games">View Games</a>
+        </div>
     </div>
 </section>
 
 <!-- GAMES -->
-<section class="games">
-    <h2>Featured Games</h2>
+<section id="games" class="games">
+    <h2>Featured Projects</h2>
 
     <div class="game-card">
-        <img src="assets/gifs/game1.gif" alt="Game">
+        <video muted loop playsinline class="game-video">
+            <source src="assets/videos/game1.mp4" type="video/mp4">
+        </video>
+
         <div class="game-info">
             <h3>Egg Merge Puzzle</h3>
-            <p>Drag to connect eggs, merge into chickens, and build chain reactions.</p>
+
+            <p class="hook">
+                Connect → Merge → Upgrade loop with high chain satisfaction.
+            </p>
+
+            <div class="metrics">
+                <span>D1: 38%</span>
+                <span>Session: 8m+</span>
+                <span>CTR: Strong</span>
+            </div>
 
             <div class="tags">
                 <span>Unity</span>
                 <span>Hybrid Casual</span>
-                <span>Drag Mechanic</span>
+                <span>Core Loop Design</span>
             </div>
-
-            <a href="#" target="_blank">View on Play Store</a>
-        </div>
-    </div>
-
-    <div class="game-card">
-        <img src="assets/gifs/game2.gif" alt="Game">
-        <div class="game-info">
-            <h3>Track Builder Puzzle</h3>
-            <p>Arrange conveyor paths to complete flow puzzles with satisfying outcomes.</p>
-
-            <div class="tags">
-                <span>Puzzle</span>
-                <span>Optimization</span>
-                <span>Physics</span>
-            </div>
-
-            <a href="#" target="_blank">View on Play Store</a>
         </div>
     </div>
 
 </section>
 
-<!-- ABOUT -->
-<section class="about">
-    <h2>About</h2>
-    <p>
-        I’m a Unity developer with 6+ years of experience building and shipping
-        hypercasual and hybrid casual games. I’ve worked with publishers including
-        VOODOO, Supersonic, Kwalee, and Crazy Labs, focusing on mechanics that drive
-        retention, engagement, and monetization.
-    </p>
+<!-- CASE STUDY -->
+<section class="case">
+    <h2>Case Study</h2>
+
+    <div class="case-block">
+        <h3>Problem</h3>
+        <p>Players were not forming long chains → low satisfaction.</p>
+    </div>
+
+    <div class="case-block">
+        <h3>Solution</h3>
+        <p>Introduced diagonal linking + slow motion during drag.</p>
+    </div>
+
+    <div class="case-block">
+        <h3>Result</h3>
+        <p>Higher engagement and improved session duration.</p>
+    </div>
 </section>
 
 <!-- CONTACT -->
 <section class="contact">
     <h2>Contact</h2>
     <p>Email: your@email.com</p>
-    <p>Play Store: https://play.google.com/store/search?q=pub:NO+GOOD+GAMES</p>
 </section>
+
+<script src="script.js"></script>
 
 </body>
 </html>
