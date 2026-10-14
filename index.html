@@ -2,151 +2,155 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ndifreke Umoh | Game Developer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ndifreke Umoh | Game Developer · Product & Gamification · UX</title>
+<meta name="description" content="Product-minded Unity developer with 6+ years designing engagement, gamification and player UX. Published mobile games, data-informed iteration, game design instructor.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700;800&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+<div class="glow" id="glow"></div>
+<div class="progress" id="progress"></div>
 
-<!-- HERO -->
-<section class="hero">
-    <video autoplay muted loop playsinline class="hero-video">
-        <source src="assets/videos/hero.mp4" type="video/mp4">
-    </video>
-    <div class="overlay"></div>
+<header class="nav" id="nav">
+  <a href="#top" class="logo">NU<span>.</span></a>
+  <nav>
+    <a href="#games">Games</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#certs">Certificates</a><a href="#approach">Approach</a>
+    <a href="#contact" class="btn-sm">Hire me</a>
+  </nav>
+</header>
 
-    <div class="hero-content">
-        <h1>Ndifreke Umoh</h1>
-        <p>6+ Years • Unity Developer • Hybrid Casual Specialist</p>
-        <div class="cta">
-            <a href="#games">View Games</a>
-        </div>
+<section class="hero" id="top">
+  <video autoplay muted loop playsinline class="hero-video"><source src="assets/videos/hero.mp4" type="video/mp4"></video>
+  <div class="overlay"></div>
+  <div class="hero-content">
+    <p class="eyebrow"><i></i> Available for new projects</p>
+    <h1>Ndifreke <em>Umoh</em></h1>
+    <p class="role">I build <span id="typed"></span><b class="caret">|</b></p>
+    <p class="sub">6+ years turning ideas into shipped products. I design engagement systems, intuitive player experiences and data-informed features that keep users coming back.</p>
+    <div class="cta">
+      <a href="#games" class="btn">View my games</a>
+      <a href="#contact" class="btn ghost">Get in touch</a>
     </div>
+  </div>
+  <a href="#games" class="scroll">Scroll<span></span></a>
 </section>
 
-<!-- GAMES -->
-<section id="games" class="games">
-    <h2>Featured Projects</h2>
+<div class="marquee"><div class="track">
+  <span>Product Thinking</span><span>Gamification</span><span>UX Design</span><span>Retention</span><span>Data Analytics</span><span>Unity</span><span>Core Loops</span>
+  <span>Product Thinking</span><span>Gamification</span><span>UX Design</span><span>Retention</span><span>Data Analytics</span><span>Unity</span><span>Core Loops</span>
+</div></div>
 
-    <div class="game-card">
-        <video muted loop playsinline class="game-video">
-            <source src="assets/videos/food_rush1.mp4" type="video/mp4">
-        </video>
-
-        <div class="game-info">
-            <h3>Food Rush</h3>
-
-            <p class="hook">
-                Conveyor → Sort → Stack loop with high chain satisfaction.
-            </p>
-
-            <div class="metrics">
-                <span>D1: 15%</span>
-                <span>Session: 8m+</span>
-                <span>CTR: Strong</span>
-            </div>
-
-            <div class="tags">
-                <span>Unity</span>
-                <span>Hybrid Casual</span>
-                <span>Core Loop Design</span>
-            </div>
-
-               <a href="https://play.google.com/store/apps/details?id=com.nogoodgames.foodrush" target="_blank">
-                Play Store ↗
-            </a>
-        </div>
-    </div>
-
+<section class="stats reveal">
+  <div><b data-count="6" data-suffix="+">0</b><span>Years experience</span></div>
+  <div><b data-count="2">0</b><span>Games on Google Play</span></div>
+  <div><b data-count="4">0</b><span>Certifications</span></div>
+  <div><b data-count="15" data-suffix="%">0</b><span>D1 retention (Food Rush)</span></div>
 </section>
 
-<!-- CASE STUDY -->
-<section class="case">
-    <h2>Case Study</h2>
+<section id="games" class="sec">
+  <p class="tag reveal">01 / Work</p>
+  <h2 class="reveal">Featured <em>games</em></h2>
 
-    <div class="case-block">
-        <h3>Problem</h3>
-        <p>Players were not forming long chains → low satisfaction.</p>
+  <article class="card reveal">
+    <div class="media"><video muted loop playsinline preload="metadata"><source src="assets/videos/food_rush1.mp4" type="video/mp4"></video><span class="hint">Hover to play</span></div>
+    <div class="info">
+      <h3>Food Rush</h3>
+      <p>Conveyor → Sort → Stack loop with high chain satisfaction.</p>
+      <div class="metrics"><span>D1: 15%</span><span>Session: 8m+</span><span>CTR: Strong</span></div>
+      <div class="tags"><span>Unity</span><span>Hybrid Casual</span><span>Core Loop Design</span></div>
+      <a class="link" href="https://play.google.com/store/apps/details?id=com.nogoodgames.foodrush" target="_blank" rel="noopener">Play Store ↗</a>
     </div>
+  </article>
 
-    <div class="case-block">
-        <h3>Solution</h3>
-        <p>Introduced diagonal linking + slow motion during drag.</p>
+  <article class="card flip reveal">
+    <div class="media"><video muted loop playsinline preload="metadata"><source src="assets/videos/snapspill.mp4" type="video/mp4"></video><span class="hint">Hover to play</span></div>
+    <div class="info">
+      <h3>Snap &amp; Spill</h3>
+      <p>Precision-based interaction where timing and physics create satisfying spill outcomes.</p>
+      <div class="metrics"><span>Focus: Timing</span><span>Physics Feedback</span><span>Player Control</span></div>
+      <div class="tags"><span>Puzzle</span><span>Physics</span><span>Interaction Design</span></div>
+      <a class="link" href="https://play.google.com/store/apps/details?id=com.nogoodgames.snapandspill" target="_blank" rel="noopener">Play Store ↗</a>
     </div>
+  </article>
 
-    <div class="case-block">
-        <h3>Result</h3>
-        <p>Higher engagement and improved session duration.</p>
+  <div class="case reveal">
+    <h3>Case study: Food Rush · from player friction to retention</h3>
+    <div class="steps">
+      <div><small>Problem</small><p>Players weren't forming long chains, which capped satisfaction and limited session length. Observed through play behaviour, not guesswork.</p></div>
+      <div><small>Solution</small><p>Reduced interaction friction with diagonal linking, and added slow motion during drag so every move felt controlled and rewarding.</p></div>
+      <div><small>Result</small><p>Higher engagement and longer sessions, reaching 15% D1 retention and 8m+ average session.</p></div>
     </div>
-
-
-    
-    <!-- SNAP & SPILL -->
-    <div class="game-card">
-        <video muted loop playsinline class="game-video">
-            <source src="assets/videos/snapspill.mp4" type="video/mp4">
-        </video>
-
-        <div class="game-info">
-            <h3>Snap & Spill</h3>
-
-            <p class="hook">
-                Precision-based interaction where timing and physics create satisfying spill outcomes.
-            </p>
-
-            <div class="metrics">
-                <span>Focus: Timing</span>
-                <span>Physics Feedback</span>
-                <span>Player Control</span>
-            </div>
-
-            <div class="tags">
-                <span>Puzzle</span>
-                <span>Physics</span>
-                <span>Interaction Design</span>
-            </div>
-
-            <a href="https://play.google.com/store/apps/details?id=com.nogoodgames.snapandspill" target="_blank">
-                Play Store ↗
-            </a>
-        </div>
-    </div>
+  </div>
 </section>
 
-    <section class="case">
-    <h2>How I Design Games</h2>
-
-    <div class="case-block">
-        <h3>Core Approach</h3>
-        <p>
-            I design gameplay loops that are immediately understandable,
-            visually rewarding, and optimized for short-session engagement.
-        </p>
-    </div>
-
-    <div class="case-block">
-        <h3>Execution Focus</h3>
-        <ul>
-            <li>Strong first interaction within 3–5 seconds</li>
-            <li>Clear cause → effect feedback</li>
-            <li>High-frequency player input</li>
-            <li>Satisfying outcomes (spill, merge, flow)</li>
-        </ul>
-    </div>
-
+<section id="skills" class="sec">
+  <p class="tag reveal">02 / Capabilities</p>
+  <h2 class="reveal">Beyond code: <em>product, play &amp; UX</em></h2>
+  <div class="grid3">
+    <div class="pill reveal"><b>Product</b><ul><li>Defined concepts, core loops and feature priorities from idea to store release</li><li>Tracked D1 retention, session length and CTR to guide each iteration</li><li>Backed by Google Data Analytics and Applied Business Analytics training</li></ul></div>
+    <div class="pill reveal"><b>Gamification</b><ul><li>Reward loops, chain satisfaction and progression that drive repeat play</li><li>Feedback systems: slow motion, physics, juicy outcomes</li><li>Multiplayer and competitive mechanics (Unity certified)</li></ul></div>
+    <div class="pill reveal"><b>UX</b><ul><li>First interaction within 3–5 seconds, with no tutorial walls</li><li>Clear cause → effect feedback and intuitive touch controls</li><li>Rapid prototype → playtest → refine cycles</li></ul></div>
+  </div>
 </section>
 
-<!-- CONTACT -->
-<section class="contact">
-    <h2>Contact</h2>
-    <p>Email: ndifrekeumoh789@gmail.com</p>
-      <a href="https://www.linkedin.com/in/ndifreke-umoh-333a84204/" target="_blank">
-                LinkedIn ↗
-            </a>
+<section id="experience" class="sec">
+  <p class="tag reveal">03 / Experience</p>
+  <h2 class="reveal">Where I've <em>worked</em></h2>
+  <div class="timeline">
+    <div class="item reveal">
+      <span class="dot"></span>
+      <small>Oct 2025 — Present</small>
+      <h3>Game Design Instructor</h3>
+      <h4>NextGen Academy · Contract</h4>
+      <p>Design and deliver curriculum on game design, player psychology and prototyping. Coach learners from concept to playable build with structured feedback, clear communication and iterative improvement.</p>
+      <div class="tags"><span>Game Development</span><span>Game Design</span><span>Mentoring</span><span>Curriculum Design</span></div>
+    </div>
+    <div class="item reveal">
+      <span class="dot"></span>
+      <small>6+ years</small>
+      <h3>Unity Developer · Hybrid Casual Specialist</h3>
+      <h4>Independent / No Good Games</h4>
+      <p>Took hybrid-casual games from concept to Google Play (Food Rush, Snap &amp; Spill): shaped the core loop, designed the first-session experience, reviewed live metrics and iterated features to lift engagement.</p>
+      <div class="tags"><span>Unity</span><span>Product Iteration</span><span>Retention Metrics</span><span>Player UX</span></div>
+    </div>
+  </div>
 </section>
 
+<section id="certs" class="sec">
+  <p class="tag reveal">04 / Education</p>
+  <h2 class="reveal">Certificates &amp; <em>credentials</em></h2>
+  <div class="certs">
+    <a class="cert reveal" target="_blank" rel="noopener" href="https://www.coursera.org/account/accomplishments/specialization/G5IKL2UKMZO4"><b>G</b><small>Sep 2025</small><h3>Google Data Analytics Specialization</h3><p>Google</p><code>ID G5IKL2UKMZO4</code><em class="v">View credential ↗</em></a>
+    <a class="cert reveal" target="_blank" rel="noopener" href="https://www.coursera.org/account/accomplishments/verify/773A0U2F37QL"><b>MSU</b><small>Dec 2025</small><h3>Game Design and Development 1: 2D Shooter</h3><p>Michigan State University</p><code>ID 773A0U2F37QL</code><em class="v">View credential ↗</em></a>
+    <a class="cert reveal" target="_blank" rel="noopener" href="https://www.coursera.org/account/accomplishments/verify/BGM4UWLARYQ0"><b>UI</b><small>Dec 2025</small><h3>Introduction to Applied Business Analytics</h3><p>Gies College of Business, UIUC</p><code>ID BGM4UWLARYQ0</code><em class="v">View credential ↗</em></a>
+    <a class="cert reveal" target="_blank" rel="noopener" href="https://www.udemy.com/certificate/UC-57ba356b-dc18-465c-ac8c-ac31dd439ff9/"><b>U</b><small>Jun 2025</small><h3>Unity Multiplayer Games Certification</h3><p>Udemy</p><code>Unity · Multiplayer</code><em class="v">View credential ↗</em></a>
+  <a class="cert reveal" target="_blank" rel="noopener" href="https://www.coursera.org/account/accomplishments/verify/E11Q592MXSIS"><b>C</b><small>Coursera</small><h3>Coursera Verified Certificate</h3><p>Coursera</p><code>ID E11Q592MXSIS</code><em class="v">View credential ↗</em></a>
+  </div>
+</section>
+
+<section id="approach" class="sec">
+  <p class="tag reveal">05 / Philosophy</p>
+  <h2 class="reveal">How I think about <em>players &amp; product</em></h2>
+  <p class="lead reveal">Experiences that are immediately understandable, rewarding to repeat, and measured against real user behaviour.</p>
+  <div class="grid4">
+    <div class="pill reveal"><b>3–5s</b>Time to first meaningful interaction (onboarding)</div>
+    <div class="pill reveal"><b>A → B</b>Clear cause → effect feedback (UX clarity)</div>
+    <div class="pill reveal"><b>D1</b>Retention treated as a design metric</div>
+    <div class="pill reveal"><b>Juice</b>Rewarding feedback that drives repeat play</div>
+  </div>
+</section>
+
+<section id="contact" class="contact reveal">
+  <h2>Let's build something <em>players love.</em></h2>
+  <div class="cta c">
+    <a class="btn" href="mailto:ndifrekeumoh789@gmail.com">ndifrekeumoh789@gmail.com</a>
+    <a class="btn ghost" href="https://www.linkedin.com/in/ndifreke-umoh-333a84204/" target="_blank" rel="noopener">LinkedIn ↗</a>
+  </div>
+  <footer>© <span id="yr"></span> Ndifreke Umoh</footer>
+</section>
 <script src="script.js"></script>
-
 </body>
 </html>
